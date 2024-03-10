@@ -53,3 +53,42 @@ body {
     opacity: 0;
   }
 }
+
+.inspectionPhoto {
+  width: 795px;
+  height: 787px;
+}
+
+@media (max-width: 968px) {
+  .inspectionPhoto {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.inspectionReport {
+  width: 450px;
+  height: 450px;
+}
+
+@media (max-width: 968px) {
+  .inspectionReport {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 968px) {
+  .certificateBadge {
+    position: absolute;
+    bottom: -80px;
+    left: 40px;
+  }
+}
+
+@media (max-width: 968px) {
+  .headerNavigation {
+    position: absolute;
+    top: 60px;
+  }
+}

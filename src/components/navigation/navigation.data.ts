@@ -9,10 +9,10 @@ export const navigations: Navigation[] = [
     label: 'Services',
     path: 'popular-course', // '/popular-course',
   },
-  // {
-  //   label: 'Testimonial',
-  //   path: 'testimonial', // '/testimonial',
-  // },
+  {
+    label: 'Contact Us',
+    path: 'footer-navigation', // '/testimonial',
+  },
   // {
   //   label: 'Mentor',
   //   path: 'mentors', // '/mentors',

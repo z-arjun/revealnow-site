@@ -94,7 +94,7 @@ const HomeHero: FC = () => {
                       <img
                         src="/images/headline-curve.svg"
                         alt="Headline curve"
-                        style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+                        style={{ maxWidth: '100%', height: 'auto' }}
                       />
                     </Box>
                   </Typography>
@@ -160,6 +160,7 @@ const HomeHero: FC = () => {
           <Grid item xs={12} md={5} sx={{ position: 'relative' }}>
             {/* Sertificate badge */}
             <Box
+              className="certificateBadge"
               sx={{
                 position: 'absolute',
                 bottom: 30,
@@ -203,7 +204,7 @@ const HomeHero: FC = () => {
               </Box>
             </Box>
             <Box sx={{ lineHeight: 0 }}>
-              <img src="/images/inspection-photo.jpg" width={795} height={787} alt="Hero img" className="" />
+              <img src="/images/inspection-photo.jpg" alt="Hero img" className="inspectionPhoto" />
             </Box>
           </Grid>
         </Grid>
